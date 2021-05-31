@@ -1,0 +1,46 @@
+{
+  "productName": "Team Data",
+  "appId": "com.netconnekt.teamdata",
+  "files": [
+    "app/dist/",
+    "app/app.html",
+    "app/splash.html",
+    "app/main.prod.js",
+    "app/main.prod.js.map",
+    "package.json"
+  ],
+  "win": {
+   
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64", "ia32"]
+      },
+      {
+        "target": "msi",
+        "arch": ["x64", "ia32"]
+      }
+    ]
+  },
+  "msi": {
+    "oneClick": false
+  },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": true,
+    "installerIcon": "resources/icon.ico",
+    "allowToChangeInstallationDirectory": false,
+    "license": "licence.txt",
+    "installerSidebar": "resources/installerSideBar.bmp",
+    "uninstallDisplayName": "Uninstall ${productName}"
+  },
+  "directories": {
+    "buildResources": "resources",
+    "output": "release"
+  },
+  "publish": {
+    "provider": "github"
+  },
+  "compression": "store",
+  "copyright": "Copyright © 2020 ${author}"
+}

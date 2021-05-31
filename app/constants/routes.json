@@ -1,0 +1,55 @@
+{
+  "HOME": "/",
+  "COUNTER": "/counter",
+  "TACTICAL": "/tactical",
+  "TECHNICAL": "/technical",
+  "MENTAL": "/mental",
+
+  "HEALTH_SITUATION": "/healthSituation",
+  "BODY_SIZE": "/bodySize",
+  "POWER_STRENGTH": "/power_strength",
+  "ENDURANCE": "/endurance",
+  "SPEED": "/speed",
+  "AGILITY": "/agility",
+  "SCOUTING": "/scouting",
+  "TESTING": "/testing",
+  "REHABILITATION": "/rehabilitation",
+  "INJURY": "/injury",
+  "TRAINING": "/training",
+  "TRAININGMOV": "/training_mov",
+  "GAMEANALYSIS": "/game_analysis",
+  "TEAMINFO": "/team_info",
+  "GAMEREPORT": "/game_report",
+  "GAMEINFO": "/game_info",
+  "GAMEREPORTVIEW": "/game_report_view",
+  "MEMBERLIST": "/member_list",
+  "MEMBERINFO": "/member_info",
+  "MEMBERLISTVIEW": "/member_list_view",
+
+  "EVALPLAYER": "/eval_player",
+  "EVALBODYSIZE": "/eval_bodySize",
+  "EVALPHYSICAL": "/eval_physical",
+  "EVALTTM": "/eval_ttm",
+  "EVALGENERAL": "/eval_general",
+
+  "PLAYERLIST": "/players_list",
+  "PLAYERLISTVIEW": "/players_list_view",
+
+  "DAILYPROGRAM": "/daily_program",
+
+  "MONTHLYPROGRAM": "/monthly_program",
+  "MONTHLYVIEW": "/monthly_view",
+
+  "SEASONPROGRAM": "/season_program",
+  "SEASONVIEW": "/seasonal_view",
+
+  "ANNUALPLAN": "/annual_plan",
+
+  "SETTINGS": "/settings",
+
+  "METHODOLOGY":"/methodology",
+  "DAILYTRAINING":"/daily_training",
+
+  "SIGNIN": "/signIn",
+  "SIGNUP": "/signUp"
+}
